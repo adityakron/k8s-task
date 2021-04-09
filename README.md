@@ -13,3 +13,10 @@ For worker node to join the cluster. Copy node_join.sh script from master node.
 ```
    $ sh node_join.sh
 ```
+After above script is executed, 
+### on master node
+to check the nodes, Run following command:
+```
+   $ kubectl get nodes -o wide 
+```
+
